@@ -120,6 +120,7 @@ session_start();
                     src="./assets/compiled/svg/jabar.svg"
                     alt="jabar"
                     srcset=""
+                    style="height: 10%; width:10%;"
                 /></a>
                         </div>
                         <div class="header-top-right">
@@ -162,7 +163,7 @@ session_start();
                             
                             <li
                                 class="menu-item  ">
-                                <a href="dashboard.admin.php" class='menu-link'>
+                                <a href="dashboardadmin.php" class='menu-link'>
                                     <span><i class="bi bi-grid-fill"></i> Dashboard</span>
                                 </a>
                             </li>  
@@ -329,19 +330,23 @@ session_start();
 
             </div>
 
-            <footer>
-                <div class="container">
-                    <div class="footer clearfix mb-0 text-muted">
-                        <div class="float-start">
-                            <p>2023 &copy; Mazer</p>
-                        </div>
-                        <div class="float-end">
-                            <p>Crafted with <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
-                                href="https://saugi.me">Saugi</a></p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+             <footer>
+          <div class="footer clearfix mb-0 text-muted">
+            <div class="float-start">
+              <p>2023 &copy; Tugas Akhir Web Programming 2</p>
+            </div>
+            <div class="float-end">
+              <p>
+                Dibuat Dengan
+                <span class="text-danger"><i class="bi bi-fire"></i></span>
+                by <a href="https://github.com/7fadillahIl">Ilham</a> &amp;
+                <a href="https://www.instagram.com/rehan_alif_albani123/"
+                  >Rehan</a
+                >
+              </p>
+            </div>
+          </div>
+        </footer>
         </div>
     </div>
     <script src="assets/static/js/components/dark.js"></script>
